@@ -1,0 +1,28 @@
+.navbarLocation{
+  input{
+    border: 1px solid rgba(0,0,0,.2);
+  }
+}
+
+.crusine{
+  .search{
+    .searchbar{
+      input{
+        padding: 4px 16px 4px 50px;
+      }
+    }
+  }
+
+  .opened{
+    .crusineOpen-header-text{
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .crusineOpen-card * {
+      height: 120px;
+    }
+  }
+}
